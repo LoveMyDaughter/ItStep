@@ -1,6 +1,6 @@
 package ua.itstep.homework;
 
-// ÄÎÐÀÁÎÒÀÒÜ: óáðàòü ñ÷åò÷èê ñ âûáîðîê
+// Ð”ÐžÐ ÐÐ‘ÐžÐ¢ÐÐ¢Ð¬: ÑƒÐ±Ñ€Ð°Ñ‚ÑŒ ÑÑ‡ÐµÑ‚Ñ‡Ð¸Ðº Ñ Ð²Ñ‹Ð±Ð¾Ñ€Ð¾Ðº
 
 public class CreateCar {
 
@@ -9,25 +9,25 @@ public class CreateCar {
 		//new Car();
 		Car [] car = new Car[15];
 		
-		car[0] = new Car("Opel", "Astra", 2005, "Ñåðûé", 18000, 347894);		
-		car[1] = new Car("Nissan", "Sunny", 1995, "Êðàñíûé", 2500, 118553);		
-		car[2] = new Car("Citroen", "c4", 2009, "Áåëûé", 21500, 747118);
-		car[3] = new Car("Merc", "s500", 2012, "Ñåðûé", 25000, 988790);
-		car[4] = new Car("Fiat", "Doblo", 2013, "Ñåðûé", 15000, 143138);
-		car[5] = new Car("Hyundai", "Tucson", 2014, "×åðíûé", 11500, 317548);
-		car[6] = new Car("Hyundai", "Sonata", 2011, "×åðíûé", 9900, 312548);
-		car[7] = new Car("Nissan", "Almera", 2002, "Ñèíèé", 3500, 155280);
-		car[8] = new Car("Nissan", "Maxima", 2007, "Çåëåíûé", 8000, 581109);
-		car[9] = new Car("Merc", "ml500", 2013, "×åðíûé", 21500, 988352);
-		car[10] = new Car("Fiat", "Doblo", 2011, "×åðíûé", 18500, 383312);
-		car[11] = new Car("Fiat", "Doblo", 2006, "×åðíûé", 7500, 138263);
-		car[12] = new Car("Merc", "ml500", 2009, "Ñåðûé", 9800, 590284);
-		car[13] = new Car("Renault", "Megane", 2009, "Ñåðûé", 8000, 988675);
-		car[14] = new Car("VW", "Passat", 2009, "Ñåðûé", 15000, 912034);
+		car[0] = new Car("Opel", "Astra", 2005, "Ð¡ÐµÑ€Ñ‹Ð¹", 18000, 347894);		
+		car[1] = new Car("Nissan", "Sunny", 1995, "ÐšÑ€Ð°ÑÐ½Ñ‹Ð¹", 2500, 118553);		
+		car[2] = new Car("Citroen", "c4", 2009, "Ð‘ÐµÐ»Ñ‹Ð¹", 21500, 747118);
+		car[3] = new Car("Merc", "s500", 2012, "Ð¡ÐµÑ€Ñ‹Ð¹", 25000, 988790);
+		car[4] = new Car("Fiat", "Doblo", 2013, "Ð¡ÐµÑ€Ñ‹Ð¹", 15000, 143138);
+		car[5] = new Car("Hyundai", "Tucson", 2014, "Ð§ÐµÑ€Ð½Ñ‹Ð¹", 11500, 317548);
+		car[6] = new Car("Hyundai", "Sonata", 2011, "Ð§ÐµÑ€Ð½Ñ‹Ð¹", 9900, 312548);
+		car[7] = new Car("Nissan", "Almera", 2002, "Ð¡Ð¸Ð½Ð¸Ð¹", 3500, 155280);
+		car[8] = new Car("Nissan", "Maxima", 2007, "Ð—ÐµÐ»ÐµÐ½Ñ‹Ð¹", 8000, 581109);
+		car[9] = new Car("Merc", "ml500", 2013, "Ð§ÐµÑ€Ð½Ñ‹Ð¹", 21500, 988352);
+		car[10] = new Car("Fiat", "Doblo", 2011, "Ð§ÐµÑ€Ð½Ñ‹Ð¹", 18500, 383312);
+		car[11] = new Car("Fiat", "Doblo", 2006, "Ð§ÐµÑ€Ð½Ñ‹Ð¹", 7500, 138263);
+		car[12] = new Car("Merc", "ml500", 2009, "Ð¡ÐµÑ€Ñ‹Ð¹", 9800, 590284);
+		car[13] = new Car("Renault", "Megane", 2009, "Ð¡ÐµÑ€Ñ‹Ð¹", 8000, 988675);
+		car[14] = new Car("VW", "Passat", 2009, "Ð¡ÐµÑ€Ñ‹Ð¹", 15000, 912034);
 		
 		System.out.println();
 	
-		System.out.println("Àâòîìîáèëè ìàðêè Nissan:");
+		System.out.println("ÐÐ²Ñ‚Ð¾Ð¼Ð¾Ð±Ð¸Ð»Ð¸ Ð¼Ð°Ñ€ÐºÐ¸ Nissan:");
 		for (Car c: car) {			
 			if (c.getName() == "Nissan") {
 				System.out.println(c.toString());
@@ -36,8 +36,8 @@ public class CreateCar {
 		
 		System.out.println();
 		
-		System.out.println("Àâòîìîáèëè Fiat ìîäåëè Doblo \n"
-							+ "ýêñïëóàòèðóþòñÿ > 4 ëåò:");
+		System.out.println("ÐÐ²Ñ‚Ð¾Ð¼Ð¾Ð±Ð¸Ð»Ð¸ Fiat Ð¼Ð¾Ð´ÐµÐ»Ð¸ Doblo \n"
+							+ "ÑÐºÑÐ¿Ð»ÑƒÐ°Ñ‚Ð¸Ñ€ÑƒÑŽÑ‚ÑÑ > 4 Ð»ÐµÑ‚:");
 		for (Car c: car) {			
 			if ((c.getModel() == "Doblo") && (2016-c.getYear() > 4)) {
 				System.out.println(c.toString());
@@ -46,8 +46,8 @@ public class CreateCar {
 		
 		System.out.println();
 		
-		System.out.println("Àâòîìîáèëè 2009 ãîäà \n"
-				+ "öåíîé > 15000:");
+		System.out.println("ÐÐ²Ñ‚Ð¾Ð¼Ð¾Ð±Ð¸Ð»Ð¸ 2009 Ð³Ð¾Ð´Ð° \n"
+				+ "Ñ†ÐµÐ½Ð¾Ð¹ > 15000:");
 		for (Car c: car) {			
 			if ((c.getYear() == 2009) && (c.getPrice() > 9000)) {
 				System.out.println(c.toString());
