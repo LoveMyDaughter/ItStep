@@ -14,17 +14,17 @@ public class Car {
     Car(String name, String model, int year, String color, int price, int regNumber){    	
     	setId(id);
     	setName(name);
-    	//System.out.println("Марка: " + getName());
+    	//System.out.println("РњР°СЂРєР°: " + getName());
     	setModel(model);
-    	//System.out.println("Модель: " + getModel());
+    	//System.out.println("РњРѕРґРµР»СЊ: " + getModel());
     	setYear(year);
-    	//System.out.println("Год выпуска: " + getYear());
+    	//System.out.println("Р“РѕРґ РІС‹РїСѓСЃРєР°: " + getYear());
     	setColor(color);
-    	//System.out.println("Цвет: " + getColor());
+    	//System.out.println("Р¦РІРµС‚: " + getColor());
     	setPrice(price);
-    	//System.out.println("Цена: " + getPrice());
+    	//System.out.println("Р¦РµРЅР°: " + getPrice());
     	setRegNumber(regNumber);
-    	//System.out.println("Рег. номер: " + getYear());    	
+    	//System.out.println("Р РµРі. РЅРѕРјРµСЂ: " + getYear());    	
     	
     	System.out.println(toString());
     }   
